@@ -59,7 +59,6 @@ class Solution:
         elif num > 2**31 -1 : return 2**31 - 1
         return num
 
-
 if __name__ == '__main__':
     s = Solution()
     print(s.myAtoi("-91283472332"))
